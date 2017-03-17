@@ -16,6 +16,7 @@ public class TextApp {
         text.printFilteredWords(new WordFilter() {
             @Override
             public boolean isValid(String s) {
+
                 return s.length() > 4;
             }
         });
